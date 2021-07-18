@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+// import Usestate from './components/usestate_UseEffect/Us'
+// import Useffect1 from "./components/usestate_UseEffect/Useffect_Variation1";
+// import Useffect2 from "./components/usestate_UseEffect/Useffect_Variation2";
+// import Infinite from './components/usestate_UseEffect/Infinitte'
+// import Useffect_variation3 from "./components/usestate_UseEffect/Useffect_variation3";
+import Cleanup from "./components/usestate_UseEffect/Cleanup";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <Cleanup/>
+   </>
   );
 }
 
